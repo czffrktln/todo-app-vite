@@ -1,0 +1,32 @@
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  padding: 20px;
+  background-color: rgba(159, 148, 142, 0.5);
+  height: 20%;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.Task {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  padding: 3px;
+  background-color: rgba(253, 253, 253, 0.8);
+}
+
+.to_do {
+  padding: 3px;
+  background-color: rgba(253, 253, 253, 0.8);
+  
+  /* min-width: 80%; */
+  
+}
+
